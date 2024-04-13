@@ -23,7 +23,7 @@ function doTheStringMath (inputString){
   v1 = Number(opArray[0]);
   v2 = Number(opArray[2]);
   if (isNaN(v1) || isNaN(v2)){
-    console.log('Please enter a valid numbers in your string (* [op] *)');
+    console.log('Please enter a valid numbers in your string (# [op] #)');
     return;
   }
   operator = opArray[1];
